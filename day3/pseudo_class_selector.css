@@ -1,0 +1,53 @@
+/* Pseudo class Selector */
+
+a:active {
+    color: cyan;
+}
+input:focus{
+    background-color: red;
+}
+
+h1:hover{
+    color:blueviolet;
+}
+
+/* Stuructural pseudo classes */
+
+ /* ul li:first-child{
+     color: red;}/*{here i want to target only frst li so we used the pseudo first child property} */
+ 
+
+ /* ul li:last-child{
+    color: aqua;
+} */
+
+
+    ul li:nth-child(2){
+    color: purple;
+}
+
+/*{in this we have to pass the middle no. which will give the css to the middle one number as we have given to the 2nd number of list
+here we cans used : number, even,odd}
+nth-child(even/odd/number) */
+
+        /* first of type */
+
+        
+/* ul li:first-of-type{
+    color:pink
+} */
+
+/* ul p:last-of-type{
+    color: chartreuse;
+}  */
+
+ /* ul p:first-of-type
+{
+    color: blue;
+}  */
+
+ tbody tr:nth-child(even){background-color: orange;}
+
+ tbody tr:nth-child(odd){
+    background-color: pink;
+ }

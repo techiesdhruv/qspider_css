@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="combinator.css">
+</head>
+<body>
+    <!-- Combinator Selector -->
+
+<!-- combinator selector are used to target the elment based on their relation 
+ 
+types of combinator Selector
+
+1)Descendent Selector
+2)Child Selector
+3)Adjacent + sibling Selector
+4)General sibling Selector
+
+-->
+
+<!-- Descendent Selector: -->
+
+<!-- descendent selector is used to target the elments based on its anchestors.
+ It is represented by space( ).
+
+-->
+<section>
+    <main>
+     <div> targeted div </div> <!-- (here, i want to target this div for css without using id class then,) -->
+    </main>
+</section>
+
+
+<!-- example 2 -->
+
+<sect>
+    <main>
+        <div>I want target this</div>
+    </main>
+</sect>
+
+
+
+
+<!-- child Selector -->
+
+<!-- child selector are used to  target the elements based on its nearest parent
+ 2) represented by > symbol
+ 3) nearest parents should be different they should not be same 
+ as, in first example parents of div in first case is main while in example 2 parent of div in second case is also main so it should be different as 
+  -->
+
+  <!-- ex-1 -->
+
+  <section>
+    <main>
+     <div> targeted div2 </div> <!-- (here, i want to target this div for css without using id class then,) -->
+    </main>
+</section>
+
+<!-- example 2 -->
+
+<article>
+    <aside>
+        <div>I want target this 2</div>
+    </aside>
+</article>
+
+
+
+<!-- Adjacent sibling Selector : -->
+
+<!-- is used to target the html element based on its adjacent sibling
+ 2) represented by +
+  -->
+
+  <section>
+    <div></div>
+    <p>first, i want to target this</p>
+    <span></span>
+    <p>secondly, i want to target this</p>
+  </section>
+
+<!-- General sibling selector -->
+
+<!-- are used to target all the elements that are next siblings of a specified elements
+  -->
+  <section>
+    <div></div>
+    <p>first, i want to target both of the pargraph tag with same css </p>
+    <p>first, i want to target both of the pargraph tag tag with same css</p>
+
+    <span></span>
+    <p>secondly, i want to target this</p>
+  </section>
+
+</body>
+</html>

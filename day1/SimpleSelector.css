@@ -1,0 +1,39 @@
+#heading2{
+    background-color: black;
+    color: white;
+}
+
+#heading3{
+    background-color: pink;
+    color: white;
+}
+
+
+/* class selector */
+.xyz{
+    background-color: blue;
+}
+
+
+/* tag Selector */
+
+h1{
+    background-color: rosybrown;
+}
+p{
+    background-color: red;
+}
+
+/* grouping selector */
+
+h1,h2,h3{
+    background-color: greenyellow;
+    color: red;
+}
+
+
+/* Universal Selector */
+
+*{
+    background-color:burlywood;
+}

@@ -1,0 +1,32 @@
+section main div{
+ background-color: red;
+}
+
+/* child selector */
+
+main>div{
+    background-color: aqua;
+}
+/* article aside div{
+    background-color: purple;
+} */
+aside>div{
+    background-color: yellow;
+}
+
+/* adjacent sibling selector */
+
+section>div +p{
+    background-color: pink;
+}
+
+section>span +p{
+    background-color: purple;
+}
+
+/* general sibling selector */
+
+section>div ~p{
+    background-color: olive;
+}
+/* --------------------------------- */
