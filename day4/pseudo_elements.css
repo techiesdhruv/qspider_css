@@ -1,0 +1,50 @@
+
+/* first line pseudo element */
+
+p::first-line{
+    font-size: larger;
+    color: pink;
+}
+
+/* first letter pseudo element */
+
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+/* before and after pseudo element */
+
+p::before{
+    content: "😍";
+}
+
+p::after{
+    content: "❤🤷‍♂️";
+    /* for addding emoji we pressed window+. shortcut for adding emoji */
+}
+
+/* selction pseudo class : when we select any content the default color comes blues but when we want to change then we used */
+
+p::selection{
+    color: gray;
+    background-color: pink;
+}
+
+/* marker pseudo class */
+
+ol li::marker{
+    font-size: larger;
+    color: red;
+}
+
+
+ol li:nth-child(odd)::marker{
+    font-size: larger;
+    content: "😍";
+}
+
+ol li:nth-child(even)::marker{
+    font-size: larger;
+    content: "🙌";
+}

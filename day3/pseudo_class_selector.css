@@ -51,3 +51,11 @@ nth-child(even/odd/number) */
  tbody tr:nth-child(odd){
     background-color: pink;
  }
+
+ /*  Ui elelemts psudo classes 
+ #Enabled
+#Disabled
+#Checked
+ 
+ */
+

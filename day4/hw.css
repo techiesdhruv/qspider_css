@@ -1,0 +1,16 @@
+input:disabled{
+    background-color: red;
+}
+input:enabled{
+    background-color: pink;
+}
+
+input[type="radio"]:checked{
+    cursor: pointer;
+    
+}
+
+input[type="checkbox"]:checked{
+    background-color: red;
+    outline: red;
+}
