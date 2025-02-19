@@ -2,6 +2,10 @@ section main div{
  background-color: red;
 }
 
+/* article main div{
+    background-color: rgb(65, 62, 62);
+   } */
+
 /* child selector */
 
 main>div{

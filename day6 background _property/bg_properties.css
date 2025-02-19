@@ -1,0 +1,184 @@
+/* bg properties */
+
+h1 {
+  /* background: pink; */
+  /* background-color: pink;  */
+
+  /* bg-color properties it can provide the single bg-color whereas
+    background properties can provide multiple background colors
+    */
+
+  /* we will see how to give multiple color with the help of linear gradient and concial gradient */
+
+  /* background: linear-gradient(red,green,blue,yellow); */
+
+  /* now i want to give the left to right color */
+  /* background: linear-gradient(to right,green,blue,yellow); */
+
+  /* this will show left wise  */
+  /* background: linear-gradient(to left,green,blue,yellow); */
+
+  /* this will show the girl in top wise*/
+  background: linear-gradient(to top, green, blue, yellow);
+}
+/* linear gradient is used to pass multiple linear color gradient */
+
+#lineargradient {
+  border: 2px solid;
+  height: 300px;
+  width: 300px;
+
+  /* background: linear-gradient(red,blue,green,pink); */
+
+  /* now,I want to change the direction from left to right rather than top to bottom */
+
+  /* background: linear-gradient(to right,red,blue,green,pink); */
+
+  /* now i want to give the direction in diagonal wise  (to right bottom / to left bottom     
+    */
+
+  /* background: linear-gradient(to right bottom,red,blue,green,pink); */
+
+  /* now i want to show  first color start from to left bottom  to right */
+
+  /* background: linear-gradient(to top right,red,blue,green,pink); */
+
+  /* now , radial gradient : radial gradient is used to provide multiple background colors from the center of the elements
+ */
+
+  /* background: radial-gradient(red,blue,green,pink,yellow); */
+
+  /* conic gradient: it will provide the colors in conic or angle way
+     we can  also create pie chart from this gradient.
+     */
+
+  /* background: conic-gradient(pink,yellow,green); */
+
+  /* pie chart */
+
+  /* background: conic-gradient(pink 0deg 135deg,yellow 135deg 200deg,green 200deg 270deg,red 270deg 360deg) ;
+    border-radius: 50%; */
+}
+
+/* hw */
+
+section {
+  height: 300px;
+  width: 300px;
+  border: 2px solid;
+  background: conic-gradient(
+    pink 0deg 45deg,
+    yellow 45deg 180deg,
+    green 180deg 225deg,
+    red 225deg 360deg
+  );
+}
+
+article {
+  height: 300px;
+  width: 300px;
+  border: 2px solid;
+  background: conic-gradient(
+    pink 0deg 90deg,
+    yellow 90deg 135deg,
+    green 135deg 180deg,
+    red 180deg 270deg,
+    orange 270deg 360deg
+  );
+}
+
+#hw3 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+  background: conic-gradient(
+    pink 0deg 45deg,
+    yellow 45deg 90deg,
+    green 90deg 180deg,
+    red 180deg 225deg,
+    orange 225deg 360deg
+  );
+}
+
+#hw4 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+  background: conic-gradient(
+    pink 0deg 45deg,
+    yellow 45deg 180deg,
+    green 180deg 315deg,
+    red 180deg 270deg,
+    pink 180deg 360deg
+  );
+}
+
+#hw5 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+  background: conic-gradient(
+    pink 0deg 90deg,
+    yellow 90deg 135deg,
+    green 135deg 180deg,
+    red 180deg 225deg,
+    orange 225deg 270deg,
+    purple 270deg 360deg
+  );
+}
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+}
+#hw6 {
+  background: conic-gradient(
+    pink 0deg 90deg,
+    yellow 90deg 135deg,
+    green 135deg 180deg,
+    red 180deg 225deg,
+    orange 225deg 315deg,
+    pink 315deg 360deg
+  );
+}
+
+#hw7 {
+  background: conic-gradient(
+    pink 0deg 45deg,
+    yellow 45deg 90deg,
+    green 90deg 135deg,
+    red 135deg 180deg,
+    orange 180deg 225deg,
+    purple 225deg 270deg,
+    white 270deg 315deg,
+    brown 315deg 360deg
+  );
+}
+
+#hw8 {
+  background: conic-gradient(
+    pink 0deg 135deg,
+    yellow 135deg 225deg,
+    green 225deg 315deg,
+    red 315deg 360deg
+  );
+}
+
+/* background image */
+
+aside {
+  height: 500px;
+  width: 500px;
+  border: 3px solid;
+  background-image: url(./peacock-9390809_1280.jpg);
+
+  background-repeat: no-repeat;
+  background-position:center;
+  /* background-size: contain; */
+  background-size: cover;
+
+  /* in background size 2 property are present 
+    contain : here only will comes , images will not adjust
+    cover: it will cover all of the image according to the container
+     */
+}

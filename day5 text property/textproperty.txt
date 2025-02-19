@@ -1,0 +1,119 @@
+<!-- text property -->
+
+<!-- text formatting -->
+
+<!--
+1) color 
+2) text-align
+3) text-transform
+4) text-shawdow
+5) text-decoration
+6)letter-spacing
+7) word- spacing
+8) text-indention
+
+
+
+1) color
+
+in css there are 6 way to give color 
+1) predefined color
+2) RGB color:for rgb its range is 0 to 255  
+3) RGBA : alpha for transprency 
+            its range 0 to 1
+4) HSL : hue saturation lightness (deg,percentage,percentage)
+5) HSLA :  : hue saturation lightness alpha
+6) Hexa decimal number
+-->
+
+2) text align :
+
+ center,left,right end, justify
+     text align right and left works same
+
+3) text-transform : 
+  
+   UPPERCASE, lowercase,Capitalize
+
+
+4) text-shawdow :
+ 
+      text shawdow: (x-axis,y-axis,spredness,color)
+
+      we can give muliple shadow with using comma.
+    
+
+5) text decoration: 
+        
+        text decoration-line/color/thickness/style
+              
+              text decoration line:
+                   line-through,overline,underline
+
+               text decoration color : 
+                    it is used to give color to the text decoration line
+
+                 text decoration thickness :
+                     it is used to give thicness to the decoration line.
+
+                 text decoration style :
+                      dashed,dotted,wavy,solid
+
+    We can use shorthand for this text decoration 
+
+       text decoration line:decoration line,style,color,thickness,
+        
+          for eg . text decoration line: line-through,dashed,red,2px
+
+
+
+6)letter-spacing:
+
+
+ 7) word- spacing :
+
+
+ 8) text-indention:
+
+
+ => line height : used for give the space     between the lines
+
+=> text-align-last:
+this property make the last line of paragraph in any position 
+
+
+=>  <!-- word break property: this property are used to break the line where there is no break (such as=> fkjsdkfljsdklfjksdjfksdjfkljsdkljfklsdjfklsdjfkljsdklfj,
+ there is no break in this line so we used 
+
+ word break : ;
+
+
+
+=> overflow:  
+     comes the all content inside 
+    the container.
+
+          overflow-x, overflow-y
+
+
+ => webkit-scrollbar :
+     this property will modify the scroll bar  and hide the scroll bar from browser and we can do scroll easily   
+
+      targetelmentname::-webkit-scrollbar {
+  display: none;}
+           or we can used 
+       ::-webkit-scrollbar {
+  display: none;
+}
+     
+
+<!-- text effect -->
+
+ 
+1) text-overflow: clip/ellipses
+2) word-wrap: break word
+3)word-break: keepall/breakall
+4) writing-mode: horizontal/verticle
+ 
+ 
+

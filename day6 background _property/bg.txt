@@ -1,0 +1,14 @@
+ background mage:url("image.jpg")
+          background color: 
+          background repeat : no-repeat/repeat-x/Y
+          background size: cover/100%
+          background-position: right/left/center
+
+
+
+background: linear gradient,conical gradient,radial gradient
+
+background image
+background size:cover,contain
+background position:center/left/right
+background repeat:repeat,no repeat
