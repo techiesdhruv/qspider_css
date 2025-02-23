@@ -1,0 +1,58 @@
+/* default css for every project */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid;
+}
+
+section{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border: 2px solid;
+} */
+
+
+/*    */
+
+section{
+    height: 500px;
+    width: 500px;
+    border:2px solid;
+    background-color: pink;
+
+    /* this will work for coming this in center */
+    margin: 0px auto;
+}
+
+article{
+    height: 300px;
+    width: 300px;
+    border:2px solid;
+    background-color: yellow;
+    margin: 0px auto;
+
+    position: relative; 
+    /* this is use for making this parent postion relative for div section to work the absolute postion left working */
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border:2px solid;
+    background-color: goldenrod;
+    position: absolute;
+    left: 100px;
+}
+
+
+

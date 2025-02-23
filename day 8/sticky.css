@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 150px;
+    border: 1px solid;
+    background-color: yellow;
+}
+
+nav{
+    height: 100px;
+    border: 1px solid;
+    background-color: red;
+    
+    /* we want that this nav bar sticky when we reach top 0px so we used this postion sticky and top 0px */
+    position: sticky;
+    top: 0px;
+}
+
+
+/*  chatbot */
+
+.chatbot{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: red;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+

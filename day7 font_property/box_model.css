@@ -1,0 +1,31 @@
+/* box model */
+
+#box_model{
+    color: red;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+
+    /* padding */
+
+    padding: 10px;  /* for apply same padding in all 4 direction */
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+
+    /* shorthand for different padding for all direction  padding: top right
+    bottom left */
+    padding: 5px 6px 7px 8px;
+     
+    padding: 5px 6px 7px;
+
+    padding: 5px 6px;
+
+    /* border */
+
+    border: 10px dotted red ;
+}

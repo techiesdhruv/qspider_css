@@ -1,0 +1,22 @@
+#para{
+    color: red;
+
+    /* to change the size of font */
+    font-size: 20px;
+
+    /* to change the styling of text */
+      /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+      /* external font family */
+      font-family: "qspider";  /* this name is given that we have given the font family name below */
+     
+     /* font weight property  range 0 to 900*/
+     font-weight: 200;
+}
+
+ /* to apply the external downloaded font family we have font-face property */
+ 
+ @font-face {
+    font-family: qspider;  /* we can pass any name to the font family */
+    src: url("./Sigmar-Regular.ttf");
+ }
