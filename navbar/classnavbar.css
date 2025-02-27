@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    height: 10vh;
+    width: 100% ;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px 20px;
+}
+.navBar .logo{
+    height: 90%;
+    width: 10%;
+    background-color: blue;
+
+}
+.navBar ul{
+    height: 100%;
+    width: 40%;
+    border: 1px solid;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+}
+.navBar .search{
+    height: 50%;
+    width: 30%;
+    outline: none;
+    font-size: large;
+    border-radius: 5px;
+    padding: 0px 5px;
+    border: 1px bold black;
+
+}
+.navBar ul li{
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.navBar ul li:hover{
+    background-color: chartreuse;
+}
+.navBar ul li:last-child:hover{
+    background-color: transparent;
+}
