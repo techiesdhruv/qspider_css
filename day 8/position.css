@@ -12,17 +12,8 @@
     width: 300px;
     background-color: red;
     border: 2px solid;
-}
-
-section{
-    height: 300px;
-    width: 300px;
-    background-color: blue;
-    border: 2px solid;
 } */
 
-
-/*    */
 
 section{
     height: 500px;
@@ -30,26 +21,29 @@ section{
     border:2px solid;
     background-color: pink;
 
-    /* this will work for coming this in center */
+    /* this will work for coming this in center*/
     margin: 0px auto;
-}
+} 
 
-article{
+ article{
     height: 300px;
     width: 300px;
     border:2px solid;
-    background-color: yellow;
+    background-color: rgb(83, 83, 51);
+
+    /* this will work for coming this in center*/
+
     margin: 0px auto;
 
     position: relative; 
     /* this is use for making this parent postion relative for div section to work the absolute postion left working */
-}
+} */
 
 div{
     height: 100px;
     width: 100px;
     border:2px solid;
-    background-color: goldenrod;
+    background-color: red;
     position: absolute;
     left: 100px;
 }

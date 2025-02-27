@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    background-color: red;
+    padding: 20px;
+
+    /* if we apply border box property */
+
+    box-sizing: border-box;
+
+    /* now this property change the box sizing and make this box according to other box  */
+
+}
+section{
+
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    background-color: pink;
+    
+
+}

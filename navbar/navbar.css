@@ -1,0 +1,41 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+#navbar1{
+    height: 10vh;
+    width: 100%;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.navigation{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    
+    
+}
+
+.search{
+    border: 1px solid;
+    height: 55%;
+    width: 8%;
+   padding-left: 30px;
+   padding-top: 7px;
+    background-color: green;
+    border-radius: 20px;
+    margin-right: 5%;
+}

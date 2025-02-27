@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+    #navbar1{
+        height: 10vh;
+        width: 100%;
+        border: 2px solid;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+
+        display: flex;
+        justify-content: space-around;
+        
+        align-items: center;
+        flex-direction: row-reverse;
+        
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .navigation{
+        display: flex;
+        width: 30%;
+        justify-content: space-around; 
+        margin: 2px;
+        align-items: center;
+
+    }
+
+    .search{
+        border: 1px solid;
+        height: 30px;
+        width: 90px;
+    
+       padding:5px 7px 15px 20px;
+        background-color: green;
+        border-radius: 20px;
+        
+    }

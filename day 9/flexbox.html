@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <!-- /* flex property */ -->
+<!-- /* it is the one dimensional layout, it is used to arrage the elements in one direction thatis either in x-axis or y-axis*/
+ 
+the default direction of flex is row
+
+3) parents me hi flex property lagenenge
+
+
+4) flex direction property we can use to change the direction of flex items.
+column : it will arragne in column
+column-reverse : it will arenge in reverse order in column
+row:
+row-revese:
+
+flex wrap :it will define the wraping style of the flex container
+
+   it is 3 values
+      wrap
+      nowrap
+      wrap-reverse
+
+to utilize space that lives while apply wrap property in flex container it has 2 prorperties
+      
+        justify-content :
+         it only works on main axis whereas align item property works on cross axis
+         
+        jab ager flex item row wise ho tab hum x-axis ko main axis aur y - axis ko cross axis bolte h 
+        jabki jab hum flexitem column wise ho tab x-axis ko cross axis or y-axis ko main axis bolte h 
+
+        main axis pr  justify content kam karta h 
+        jabki
+        cross items pr align-items aur align content kam karta h
+         
+
+
+        align-items: 
+                    start/flex-start/left
+                    end/flex-end/right
+                    center
+
+
+        align content : 
+                       start/flex-start/left
+                       end/flex-end/right
+                        center
+                       space-between
+                       space around
+                       space evenly
+
+
+
+
+ 
+
+justify-content:it contains 6 values
+
+      start/flex-start/left
+      end/flex-end/right
+      center
+      space-between
+      space around
+      space evenly
+
+order property:
+                  this property is used to give order to the flexitems 
+                 if we give order:2 , it means that it goahead by 2 steps
+                 if we give order -2,it means that it will returnback by 2 steps
+
+    these order property is used only in flex items not in parentcell that is flexbox.
+
+-->
+<section class="flexcontainer">
+    <div class="flexbox">1</div>
+    <div  id="flxid" class="flexbox">2</div>
+    <div class="flexbox">3</div>
+    <div class="flexbox">4</div>
+    <div class="flexbox">5</div>
+    <div class="flexbox">6</div>
+    <div class="flexbox">7</div>
+    <div class="flexbox">8</div>
+</section>
+
+    
+</body>
+</html>
