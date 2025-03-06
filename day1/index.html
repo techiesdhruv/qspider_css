@@ -116,5 +116,36 @@ the css which is written in same file, these css are written inside the head tag
 <!-- class selector are used to target the multiple elements at the same time
  2) it is represented by (.)
   -->
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-colored Border</title>
+    <style>
+        .multi-border {
+            width: 200px;
+            height: 100px;
+            border: 2px solid;
+            border-color: linear-gradient(90deg, red, blue, pink, purple) 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            /* border-color: linear-gradient; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="multi-border">Multi-colored Border</div>
+
+</body>
+</html>
+
 </body>
 </html>
